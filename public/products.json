@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Vans Old Skool VN000D3HY28 Black/White",
+    "price": 80.0,
+    "image": "/src/img/shoes1.jpg",
+    "description": "Comfortable running shoes for your active lifestyle.",
+    "sizes": [39, 40, 41, 42, 43, 44, 45]
+  },
+  {
+    "id": 2,
+    "name": "Converse Sneakers Chuck 70 Plus Colorblock A03498C Beige",
+    "price": 148.0,
+    "image": "/src/img/shoes4.jpg",
+    "description": "Stylish sneakers perfect for everyday wear.",
+    "sizes": [43, 44, 45]
+  },
+  {
+    "id": 3,
+    "name": "Karl Lagerfeld Outdoor shoes KL25251 Black Canvas Mono",
+    "price": 249.0,
+    "image": "/src/img/shoes10.jpg",
+    "description": "Durable hiking boots for your outdoor adventures.",
+    "sizes": [38, 39, 40, 43, 44, 45]
+  },
+  {
+    "id": 4,
+    "name": "New Balance Sneakers MR530EMA White",
+    "price": 120.0,
+    "image": "/src/img/shoes15.jpg",
+    "description": "Cool and comfortable flip flops for the summer.",
+    "sizes": [37, 39, 42]
+  },
+  {
+    "id": 5,
+    "name": "Guess Boats Dafne13 Carry Over FL7D13 PAT08 NATU",
+    "price": 140.0,
+    "image": "/src/img/shoes14.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [39, 40, 41, 42, 43, 44]
+  },
+  {
+    "id": 6,
+    "name": "Adidas Adi2000 IF8820 Chacoa/Ftwwht/Putgre",
+    "price": 120.0,
+    "image": "/src/img/shoes7.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [36, 39, 40, 41, 42, 45]
+  },
+  {
+    "id": 7,
+    "name": "Vans Sneakers Sk8-Hi Mte-1 VN0A5HZYA041 Black/White/Checkerboard",
+    "price": 115.0,
+    "image": "/src/img/shoes2.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [36, 38, 39]
+  },
+  {
+    "id": 8,
+    "name": "Adidas Znsored Hi IE9417 White",
+    "price": 119.0,
+    "image": "/src/img/shoes9.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [38, 39, 45]
+  },
+  {
+    "id": 9,
+    "name": "Karl Lagerfeld Low shoes KL12423 Black Lthr",
+    "price": 269.0,
+    "image": "/src/img/shoes11.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [39, 40, 41, 42, 43, 44, 45]
+  },
+  {
+    "id": 10,
+    "name": "Converse Sneakers Chuck Taylor All Star Construct A04528C Sand",
+    "price": 100.0,
+    "image": "/src/img/shoes6.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [37, 39, 40, 41, 42, 45]
+  },
+  {
+    "id": 11,
+    "name": "Adidas Forum Low I FY7756 Ftwwht/Ftwwht/Royblu",
+    "price": 120.0,
+    "image": "/src/img/shoes8.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [39, 40]
+  },
+  {
+    "id": 12,
+    "name": "Guess Flat shoes FLPSB6 PAT08 BLACK",
+    "price": 160.0,
+    "image": "/src/img/shoes13.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [37, 39, 40, 41, 44, 45]
+  },
+  {
+    "id": 13,
+    "name": "Converse Sneakers All Star Hi M9160 Black",
+    "price": 75.0,
+    "image": "/src/img/shoes5.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [39, 40, 45]
+  },
+  {
+    "id": 14,
+    "name": "Karl Lagerfeld Ankle boots with elastic element KL25243 Black",
+    "price": 239.0,
+    "image": "/src/img/shoes12.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [39, 40, 41]
+  },
+  {
+    "id": 15,
+    "name": "Vans Sneakers Sk8-Hi VN0007NSBLK1 Hibiscus Check Black",
+    "price": 95.0,
+    "image": "/src/img/shoes3.jpg",
+    "description": "Elegant formal shoes for special occasions.",
+    "sizes": [36, 37, 38, 39, 40, 41, 45]
+  }
+]
