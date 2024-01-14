@@ -18,12 +18,14 @@
           {{ product ? product.description : "" }}
         </p>
         <p class="product-price">Price: ${{ product ? product.price : "" }}</p>
-        <label for="shoeSize" class="size-label">Select Size:</label>
-        <select id="shoeSize" v-model="selectedSize" class="size-dropdown">
-          <option v-for="size in product ? product.sizes : []" :key="size">
-            {{ size }}
-          </option>
-        </select>
+        <div class="size-selection">
+          <label for="shoeSize" class="size-label">Select Size:</label>
+          <select id="shoeSize" v-model="selectedSize" class="size-dropdown">
+            <option v-for="size in product ? product.sizes : []" :key="size">
+              {{ size }}
+            </option>
+          </select>
+        </div>
         <button @click="addToCart" class="add-to-cart-btn">Add to Cart</button>
       </div>
     </div>
@@ -87,11 +89,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .product-container {
-  max-width: 1000px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 30px;
   position: relative;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -142,12 +144,21 @@ export default {
 }
 
 .product-description {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 .product-price {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.size-selection {
+  margin-left: 10;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .size-label {
@@ -163,7 +174,7 @@ export default {
 .add-to-cart-btn {
   background-color: #007bff;
   color: #fff;
-  padding: 8px 16px;
+  padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;

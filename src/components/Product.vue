@@ -4,7 +4,7 @@
     <div class="product-details">
       <h2 class="product-name">{{ product.name }}</h2>
       <p class="product-description">{{ product.description }}</p>
-      <p class="product-price">Price: €{{ product.price }}</p>
+      <p class="product-price">{{ product.price }}€</p>
     </div>
   </div>
 </template>

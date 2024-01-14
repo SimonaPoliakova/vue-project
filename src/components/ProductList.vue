@@ -4,6 +4,7 @@
       v-for="product in products"
       :to="'/product/' + product.id"
       :key="product.id"
+      class="product-list-text"
     >
       <Product :product="product" />
     </router-link>
@@ -46,4 +47,10 @@ export default {
   gap: 40px;
   margin: 50px;
 }
+
+.product-list-text {
+  text-decoration: none;
+  color: #336699; 
+}
 </style>
+
