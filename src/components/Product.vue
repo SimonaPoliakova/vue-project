@@ -23,6 +23,7 @@ export default {
   padding: 5px;
   margin: 10px;
   text-align: center;
+  height: 100%;
 }
 
 .product-image {
