@@ -1,14 +1,21 @@
 <template>
   <div id="app">
     <header>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-      <RouterLink to="/cart">Cart</RouterLink>
+      <div class="logo">Shoe Store</div>
+      <nav>
+        <RouterLink to="/" class="nav-link">Home</RouterLink>
+        <RouterLink to="/about" class="nav-link">About</RouterLink>
+        <RouterLink to="/cart" class="nav-link">Cart</RouterLink>
+      </nav>
     </header>
 
     <main>
       <RouterView />
     </main>
+
+    <footer>
+      <p>&copy; 2024 Simona Poliakova</p>
+    </footer>
   </div>
 </template>
 
@@ -20,24 +27,60 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #3498db;
-  padding: 10px;
+  background-color: #0050a0;
+  padding: 10px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-link {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #2980b9;
 }
 
 main {
-  margin-top: 50px;
+  flex-grow: 1;
+  margin-top: 70px;
+}
+
+footer {
+  background-color: #34495e;
+  padding: 10px;
+  color: #ecf0f1;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+body {
+  margin: 0;
 }
 </style>

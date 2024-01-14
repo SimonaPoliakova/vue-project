@@ -121,7 +121,7 @@ export default {
 }
 
 .product-title {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
@@ -131,7 +131,7 @@ export default {
 }
 
 .product-image {
-  max-width: 80%;
+  max-width: 50%;
   height: auto;
   margin-right: 20px;
   border-radius: 8px;
