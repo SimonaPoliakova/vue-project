@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Vans Old Skool VN000D3HY28 Black/White",
+    "name": "VANS Old Skool VN000D3HY28 Black/White",
     "price": 80.0,
     "image": "/src/img/shoes1.jpg",
     "description": "Comfortable running shoes for your active lifestyle.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Converse Sneakers Chuck 70 Plus Colorblock A03498C Beige",
+    "name": "CONVERSE Sneakers Chuck 70 Plus Colorblock A03498C Beige",
     "price": 148.0,
     "image": "/src/img/shoes4.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Karl Lagerfeld Outdoor shoes KL25251 Black Canvas Mono",
+    "name": "KARL LAGERFELD Outdoor shoes KL25251 Black Canvas Mono",
     "price": 249.0,
     "image": "/src/img/shoes10.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "New Balance Sneakers MR530EMA White",
+    "name": "NEW BALANCE Sneakers MR530EMA White",
     "price": 120.0,
     "image": "/src/img/shoes15.jpg",
     "description": "Comfortable running shoes for your active lifestyle.",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "Guess Boats Dafne13 Carry Over FL7D13 PAT08 NATU",
+    "name": "GUESS Boats Dafne13 Carry Over FL7D13 PAT08 NATU",
     "price": 140.0,
     "image": "/src/img/shoes14.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "name": "Adidas Adi2000 IF8820 Chacoa/Ftwwht/Putgre",
+    "name": "ADIDAS Adi2000 IF8820 Chacoa/Ftwwht/Putgre",
     "price": 120.0,
     "image": "/src/img/shoes7.jpg",
     "description": "Comfortable running shoes for your active lifestyle.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "Vans Sneakers Sk8-Hi Mte-1 VN0A5HZYA041 Black/White/Checkerboard",
+    "name": "VANS Sneakers Sk8-Hi Mte-1 VN0A5HZYA041 Black/White/Checkerboard",
     "price": 115.0,
     "image": "/src/img/shoes2.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "name": "Adidas Znsored Hi IE9417 White",
+    "name": "ADIDAS Znsored Hi IE9417 White",
     "price": 119.0,
     "image": "/src/img/shoes9.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "name": "Karl Lagerfeld Low shoes KL12423 Black Lthr",
+    "name": "KARL LAGERFELD Low shoes KL12423 Black Lthr",
     "price": 269.0,
     "image": "/src/img/shoes11.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "name": "Converse Sneakers Chuck Taylor All Star Construct A04528C Sand",
+    "name": "CONVERSE Sneakers Chuck Taylor All Star Construct A04528C Sand",
     "price": 100.0,
     "image": "/src/img/shoes6.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "name": "Adidas Forum Low I FY7756 Ftwwht/Ftwwht/Royblu",
+    "name": "ADIDAS Forum Low I FY7756 Ftwwht/Ftwwht/Royblu",
     "price": 120.0,
     "image": "/src/img/shoes8.jpg",
     "description": "Comfortable running shoes for your active lifestyle.",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "name": "Guess Flat shoes FLPSB6 PAT08 BLACK",
+    "name": "GUESS Flat shoes FLPSB6 PAT08 BLACK",
     "price": 160.0,
     "image": "/src/img/shoes13.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "name": "Converse Sneakers All Star Hi M9160 Black",
+    "name": "CONVERSE Sneakers All Star Hi M9160 Black",
     "price": 75.0,
     "image": "/src/img/shoes5.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "name": "Karl Lagerfeld Ankle boots with elastic element KL25243 Black",
+    "name": "KARL LAGERFELD Ankle boots with elastic element KL25243 Black",
     "price": 239.0,
     "image": "/src/img/shoes12.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -113,10 +113,50 @@
   },
   {
     "id": 15,
-    "name": "Vans Sneakers Sk8-Hi VN0007NSBLK1 Hibiscus Check Black",
+    "name": "VANS Sneakers Sk8-Hi VN0007NSBLK1 Hibiscus Check Black",
     "price": 95.0,
     "image": "/src/img/shoes3.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
     "sizes": [36, 37, 38, 39, 40, 41, 45]
+  },
+  {
+    "id": 16,
+    "name": "PUMA Sneakers Rebound Joy V6 393831 03 Red",
+    "price": 71.0,
+    "image": "/src/img/shoes18.jpg",
+    "description": "Stylish sneakers perfect for everyday wear.",
+    "sizes": [38, 39]
+  },
+  {
+    "id": 17,
+    "name": "LIU JO Sneakers Tami 13 BA4089 TX233 Leopard S19C1",
+    "price": 189.0,
+    "image": "/src/img/shoes19.jpg",
+    "description": "Stylish sneakers perfect for everyday wear.",
+    "sizes": [36, 37, 38, 39]
+  },
+  {
+    "id": 18,
+    "name": "BIG STAR Sandals Ll174208 906",
+    "price": 40.0,
+    "image": "/src/img/shoes20.jpg",
+    "description": "Stylish sneakers perfect for everyday wear.",
+    "sizes": [39, 40, 41, 42]
+  },
+  {
+    "id": 19,
+    "name": "CONVERSE ALL STAR R Ukiyoe Print Hokusai HI 1SD718 (Skull) 2023",
+    "price": 147.0,
+    "image": "/src/img/shoes16.jpg",
+    "description": "This pair honors the masterpieces of two famous Japanese artists: Katsushika Hokusai and Utagawa Kuniyoshi.",
+    "sizes": [39, 40, 41, 42]
+  },
+  {
+    "id": 20,
+    "name": "CONVERSE ALL STAR R Ukiyoe Print Hokusai HI 1SD719 (Wave) 2023",
+    "price": 147.0,
+    "image": "/src/img/shoes17.jpg",
+    "description": "This pair honors the masterpieces of two famous Japanese artists: Katsushika Hokusai and Utagawa Kuniyoshi.",
+    "sizes": [38, 39]
   }
 ]

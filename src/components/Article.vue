@@ -18,9 +18,9 @@
       <div v-html="article.content" class="article-content"></div>
       <br />
       <a
-        href="https://hypebeast.com/2023/11/converse-all-star-ukiyoeprint-the-great-wave-off-kanagawa-takiyasha-the-witch-and-the-skeleton-spectre-31310151-31310150-release-info"
-        >source</a
-      >
+        href="https://hypebeast.com/2023/11/converse-all-star-ukiyoeprint-the-great-wave-off-kanagawa-takiyasha-the-witch-and-the-skeleton-spectre-31310151-31310150-release-info">read more</a><br>
+        <router-link to="/" class="shop-now-button">Shop Now</router-link>
+
     </div>
   </div>
   <div v-else>
@@ -125,5 +125,21 @@ export default {
   font-size: 18px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.shop-now-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #45a049;
 }
 </style>
