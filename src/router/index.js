@@ -4,6 +4,8 @@ import ProductDetails from "@/views/ProductDetails.vue";
 import OrderDetails from "@/views/OrderDetails.vue";
 import Collections from "@/views/Collections.vue";
 import ArticleComponent from "@/components/Article.vue";
+import ShippingDetails from '@/views/ShippingDetails.vue'; 
+
 
 const routes = [
   { path: "/", component: Home },
@@ -13,6 +15,11 @@ const routes = [
   { path: "/cart", component: () => import("@/views/Cart.vue") },
   { path: "/collections", component: Collections },
   { path: "/article", name: "article", component: ArticleComponent },
+  {
+    path: '/shipping-details',
+    component: ShippingDetails,
+  },
+
 ];
 
 const router = createRouter({

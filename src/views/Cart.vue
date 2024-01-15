@@ -84,7 +84,7 @@ export default {
       return this.cartItems.reduce((total, item) => total + item.totalPrice, 0);
     },
     checkout() {
-      console.log("Checkout clicked!");
+      this.$router.push('/shipping-details');
     },
   },
 };
