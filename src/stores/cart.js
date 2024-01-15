@@ -11,17 +11,11 @@ export const useCartStore = defineStore({
     addToCart(product) {
       this.items = ensureArray(this.items);
 
-      const existingItem = this.items.find((item) => item.id === product.id);
-
-      if (existingItem) {
-        existingItem.totalPrice += product.price;
-      } else {
-        const newItem = {
-          ...product,
-          totalPrice: product.price,
-        };
-        this.items.push(newItem);
-      }
+      const newItem = {
+        ...product,
+        totalPrice: product.price,
+      };
+      this.items.push(newItem);
 
       saveState(this.items);
     },

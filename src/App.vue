@@ -4,13 +4,13 @@
       <div class="logo">Shoe eShop</div>
       <nav>
         <RouterLink to="/" class="nav-link">Home</RouterLink>
-        <RouterLink to="/about" class="nav-link">Collections</RouterLink>
-        <RouterLink to="/cart" class="nav-link">About</RouterLink>
+        <RouterLink to="/collections" class="nav-link">Collections</RouterLink>
+        <RouterLink to="/about" class="nav-link">About</RouterLink>
         <RouterLink to="/cart" class="nav-link">Cart</RouterLink>
       </nav>
     </header>
 
-    <main>
+    <main style="margin-top: 30px;">
       <RouterView />
     </main>
 
