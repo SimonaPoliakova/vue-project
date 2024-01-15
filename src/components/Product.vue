@@ -3,7 +3,9 @@
     <img class="product-image" :src="product.image" :alt="product.name" />
     <div class="product-details">
       <h2 class="product-name">{{ product.name }}</h2>
-      <p class="product-description">{{ product.description }}</p>
+      <p v-if="showDescription" class="product-description">
+        {{ product.description }}
+      </p>
       <p class="product-price">{{ product.price }}€</p>
     </div>
   </div>
@@ -13,6 +15,10 @@
 export default {
   props: {
     product: Object,
+    showDescription: {
+      type: Boolean,
+      default: true,
+    },
   },
 };
 </script>

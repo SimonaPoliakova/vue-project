@@ -65,7 +65,7 @@ nav {
 }
 
 .nav-link:hover {
-  background-color: #2980b9;
+  background-color: #0d72d8;
 }
 
 main {

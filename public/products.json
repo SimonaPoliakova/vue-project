@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "KARL LAGERFELD Outdoor shoes KL25251 Black Canvas Mono",
+    "name": "KARL LAGERFELD Outdoor shoes KL25251 Black Canvas",
     "price": 249.0,
     "image": "/src/img/shoes10.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "VANS Sneakers Sk8-Hi Mte-1 VN0A5HZYA041 Black/White/Checkerboard",
+    "name": "VANS Sneakers Sk8-Hi Mte-1 Black/White/Checkerboard",
     "price": 115.0,
     "image": "/src/img/shoes2.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "name": "CONVERSE Sneakers Chuck Taylor All Star Construct A04528C Sand",
+    "name": "CONVERSE Sneakers Chuck Taylor All Star Construct",
     "price": 100.0,
     "image": "/src/img/shoes6.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "name": "KARL LAGERFELD Ankle boots with elastic element KL25243 Black",
+    "name": "KARL LAGERFELD Ankle boots KL25243 Black",
     "price": 239.0,
     "image": "/src/img/shoes12.jpg",
     "description": "Elegant formal shoes for special occasions.",
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "name": "VANS Sneakers Sk8-Hi VN0007NSBLK1 Hibiscus Check Black",
+    "name": "VANS Sneakers Sk8-Hi Hibiscus Check Black",
     "price": 95.0,
     "image": "/src/img/shoes3.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "name": "BIG STAR Sandals Ll174208 906",
+    "name": "BIG STAR Sandals Ll174208 906 Black",
     "price": 40.0,
     "image": "/src/img/shoes20.jpg",
     "description": "Stylish sneakers perfect for everyday wear.",
@@ -145,18 +145,18 @@
   },
   {
     "id": 19,
-    "name": "CONVERSE ALL STAR R Ukiyoe Print Hokusai HI 1SD718 (Skull) 2023",
-    "price": 147.0,
+    "name": "DR MARTENS Glady Vegan Jadon II Mono Optical white",
+    "price": 257.0,
     "image": "/src/img/shoes16.jpg",
-    "description": "This pair honors the masterpieces of two famous Japanese artists: Katsushika Hokusai and Utagawa Kuniyoshi.",
+    "description": "Elegant formal shoes for special occasions.",
     "sizes": [39, 40, 41, 42]
   },
   {
     "id": 20,
-    "name": "CONVERSE ALL STAR R Ukiyoe Print Hokusai HI 1SD719 (Wave) 2023",
-    "price": 147.0,
+    "name": "DR MARTENS Glady Smooth 26499100 White",
+    "price": 250.0,
     "image": "/src/img/shoes17.jpg",
-    "description": "This pair honors the masterpieces of two famous Japanese artists: Katsushika Hokusai and Utagawa Kuniyoshi.",
+    "description": "Elegant formal shoes for special occasions.",
     "sizes": [38, 39]
   }
 ]

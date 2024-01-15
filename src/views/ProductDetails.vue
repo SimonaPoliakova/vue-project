@@ -1,19 +1,21 @@
 <template>
   <div class="product-container">
-    <div class="overlay-message success-message" v-if="showSuccessMessage">
+    <div v-if="showSuccessMessage" class="overlay-message success-message">
       Item added successfully!
     </div>
-    <div class="overlay-message error-message" v-if="showErrorMessage">
+    <div v-if="showErrorMessage" class="overlay-message error-message">
       Please choose your size before adding to the cart.
     </div>
-    <h1 class="product-title">{{ product ? product.name : "" }}</h1>
     <div class="product-content">
-      <img
-        class="product-image"
-        :src="product ? product.image : ''"
-        :alt="product ? product.name : ''"
-      />
+      <div class="product-image-container">
+        <img
+          class="product-image"
+          :src="product ? product.image : ''"
+          :alt="product ? product.name : ''"
+        />
+      </div>
       <div class="product-details">
+        <h1 class="product-title">{{ product ? product.name : "" }}</h1>
         <p class="product-description">
           {{ product ? product.description : "" }}
         </p>
@@ -122,25 +124,28 @@ export default {
   background-color: red;
 }
 
-.product-title {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
 .product-content {
   display: flex;
-  align-items: center;
+}
+
+.product-image-container {
+  flex: 0 0 50%;
+  margin-right: 20px;
 }
 
 .product-image {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
-  margin-right: 20px;
   border-radius: 8px;
 }
 
 .product-details {
   flex-grow: 1;
+}
+
+.product-title {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .product-description {
@@ -155,9 +160,6 @@ export default {
 }
 
 .size-selection {
-  margin-left: 10;
-  display: flex;
-  align-items: center;
   margin-bottom: 20px;
 }
 

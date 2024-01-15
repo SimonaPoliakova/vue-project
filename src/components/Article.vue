@@ -18,7 +18,7 @@
       <div v-html="article.content" class="article-content"></div>
       <br />
       <a
-        href="https://hypebeast.com/2023/11/converse-all-star-ukiyoeprint-the-great-wave-off-kanagawa-takiyasha-the-witch-and-the-skeleton-spectre-31310151-31310150-release-info">read more</a><br>
+        href="https://hypebeast.com/2023/11/converse-all-star-ukiyoeprint-the-great-wave-off-kanagawa-takiyasha-the-witch-and-the-skeleton-spectre-31310151-31310150-release-info">source</a><br>
         <router-link to="/" class="shop-now-button">Shop Now</router-link>
 
     </div>
