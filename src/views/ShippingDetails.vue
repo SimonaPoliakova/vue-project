@@ -50,14 +50,9 @@ export default {
   },
   methods: {
     submitShippingDetails() {
-      // Access the cart store
       const cartStore = useCartStore();
-
-      // Clear the cart
       cartStore.clearCart();
-
-      // Redirect to home with a query parameter to show the message
-      this.$router.push({ name: "home", query: { thankYou: true } });
+      this.$router.push({ name: "home" });
     },
   },
 };
