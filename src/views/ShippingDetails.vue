@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import { useCartStore } from "@/stores/cart";
+
 export default {
   data() {
     return {
@@ -48,7 +50,14 @@ export default {
   },
   methods: {
     submitShippingDetails() {
-      this.$router.push({ name: "home" });
+      // Access the cart store
+      const cartStore = useCartStore();
+
+      // Clear the cart
+      cartStore.clearCart();
+
+      // Redirect to home with a query parameter to show the message
+      this.$router.push({ name: "home", query: { thankYou: true } });
     },
   },
 };

@@ -10,7 +10,10 @@
       Cart cleared successfully!
     </div>
     <h2>Cart</h2>
-    <div class="table-container">
+    <div v-if="cartItems.length === 0" class="empty-cart-message">
+      Your cart is empty.
+    </div>
+    <div v-else class="table-container">
       <table class="cart-table">
         <thead>
           <tr>
@@ -33,15 +36,15 @@
           </tr>
         </tbody>
       </table>
-    </div>
-    <div class="total-container">
-      <p>Total: ${{ calculateTotalPrice().toFixed(2) }}</p>
-    </div>
-    <div class="button-container">
-      <button @click="clearCart" class="cart-button">Clear Cart</button>
-      <button @click="checkout" class="cart-button checkout-button">
-        Checkout
-      </button>
+      <div class="total-container">
+        <p>Total: ${{ calculateTotalPrice().toFixed(2) }}</p>
+      </div>
+      <div class="button-container">
+        <button @click="clearCart" class="cart-button">Clear Cart</button>
+        <button @click="checkout" class="cart-button checkout-button">
+          Checkout
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -167,5 +170,10 @@ export default {
 
 .checkout-button:hover {
   background-color: #337a35;
+}
+.empty-cart-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
 }
 </style>
