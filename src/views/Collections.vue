@@ -31,7 +31,6 @@ export default {
 </script>
 
 <style scoped>
-
 .article-container {
   border: 1px solid #ccc;
   padding: 10px; 

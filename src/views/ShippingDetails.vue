@@ -48,18 +48,7 @@ export default {
   },
   methods: {
     submitShippingDetails() {
-      this.$router.push({
-        name: "checkout",
-        params: {
-          shippingDetails: {
-            fullName: this.fullName,
-            address: this.address,
-            city: this.city,
-            postalCode: this.postalCode,
-          },
-          paymentMethod: this.paymentMethod,
-        },
-      });
+      this.$router.push({ name: "home" });
     },
   },
 };
